@@ -1,0 +1,11 @@
+?- consult('conocimiento.pl').
+true.
+
+?- assert(sintoma(sin_internet)).
+true.
+
+?- assert(sintoma(ip_incorrecta)).
+true.
+
+?- sugerir_diagnostico(D).
+D = falla_red.
