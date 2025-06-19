@@ -1,11 +1,3 @@
-?- consult('conocimiento.pl').
-true.
-
-?- assert(sintoma(sin_internet)).
-true.
-
-?- assert(sintoma(ip_incorrecta)).
-true.
-
-?- sugerir_diagnostico(D).
-D = falla_red.
+?- reporte_alumno('alumno').
+?- promedio_alumno('alumno,'promedio).
+?- alumno_en_materia('Materia', Alumno).
